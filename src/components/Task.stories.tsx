@@ -50,3 +50,15 @@ export const Archived: Story = {
     },
   },
 };
+
+const longTitleString =
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam maiores, molestiae dignissimos sapiente assumenda accusamus tempora similique temporibus quisquam, voluptatibus dolore ea officia asperiores. Assumenda rem quis ullam. Earum perferendis pariatur molestiae odio assumenda inventore suscipit aspernatu";
+
+export const LongTitle: Story = {
+  args: {
+    task: {
+      ...Default.args.task,
+      title: longTitleString,
+    },
+  },
+};
